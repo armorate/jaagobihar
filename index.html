@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>जागो बिहार – अपने गाँव का हिसाब पूछें (RTI)</title>
+<meta name="description" content="RTI से अपनी पंचायत, सड़क, नाली, आवास और मनरेगा का हिसाब पूछना सीखें। सरल हिंदी में, तैयार आवेदन के साथ।">
+<meta name="theme-color" content="#1e2a5a">
+<style>
+:root{--navy:#1e2a5a;--ink:#14161f;--gold:#f5b700;--bg:#fff;--soft:#eef1f8;--line:#c9d0e6}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:12px}
+body{margin:0;font:18px/1.7 "Noto Sans Devanagari","Mukta","Nirmala UI",system-ui,sans-serif;color:var(--ink);background:var(--bg);padding-bottom:calc(76px + env(safe-area-inset-bottom,0px))}
+section{padding:28px 18px;max-width:680px;margin:auto}
+h1,h2,h3{line-height:1.3;margin:0 0 12px}
+h2{font-size:1.5rem;color:var(--navy)}
+h3{font-size:1.1rem}
+a{color:var(--navy)}
+.hero{background:var(--navy);color:#fff;max-width:none;padding:calc(34px + env(safe-area-inset-top,0px)) 18px 36px}
+.hero>div{max-width:680px;margin:auto}
+.hero .brand{font-weight:700;color:var(--gold);font-size:1.1rem;margin:0 0 14px}
+.hero h1{font-size:2.1rem}
+.hero p{font-size:1.1rem;margin:0 0 20px}
+.btn{display:block;width:100%;min-height:52px;padding:13px 16px;margin:10px 0;border:2px solid var(--gold);border-radius:10px;background:var(--gold);color:#14161f;font:700 1.05rem/1.4 inherit;text-align:center;text-decoration:none;cursor:pointer}
+.btn.alt{background:transparent;color:inherit;border-color:currentColor}
+.facts{display:grid;gap:10px}
+.fact{background:var(--soft);border-left:6px solid var(--navy);padding:12px 14px;border-radius:6px}
+.fact b{display:block;font-size:1.15rem}
+ol.steps{padding-left:0;list-style:none;counter-reset:s}
+ol.steps li{counter-increment:s;position:relative;padding:12px 12px 12px 58px;margin:10px 0;background:var(--soft);border-radius:10px}
+ol.steps li:before{content:counter(s);position:absolute;left:12px;top:12px;width:34px;height:34px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;text-align:center;line-height:34px}
+.note{background:#fff7d6;border:1px solid #e6c200;padding:12px 14px;border-radius:8px;font-size:1rem}
+label{display:block;font-weight:700;margin-top:10px}
+input{width:100%;min-height:50px;padding:10px 12px;font:inherit;border:2px solid var(--line);border-radius:8px}
+details{border:2px solid var(--line);border-radius:10px;margin:12px 0;background:#fff}
+summary{min-height:52px;padding:12px 14px;font-weight:700;cursor:pointer}
+details>div{padding:0 14px 14px}
+pre{white-space:pre-wrap;word-wrap:break-word;font:inherit;font-size:1rem;background:var(--soft);padding:12px;border-radius:8px;margin:0 0 10px}
+.card{border:2px solid var(--line);border-radius:10px;padding:12px 14px;margin:12px 0}
+.card p{margin:4px 0}
+.k{font-weight:700;color:var(--navy)}
+footer{background:var(--soft);padding:24px 18px;font-size:.95rem;max-width:none}
+footer div{max-width:680px;margin:auto}
+nav{position:fixed;left:0;right:0;bottom:0;display:flex;background:var(--navy);padding-bottom:env(safe-area-inset-bottom,0px);z-index:9}
+nav a{flex:1;min-height:60px;display:flex;align-items:center;justify-content:center;color:#fff;text-decoration:none;font-size:.95rem;font-weight:700;text-align:center;line-height:1.2}
+nav a:active,a:focus-visible,.btn:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+</style>
+</head>
+<body>
+
+<header class="hero" id="top"><div>
+<p class="brand">जागो बिहार</p>
+<h1>आपके गाँव का पैसा कहाँ गया? पूछना आपका हक़ है।</h1>
+<p>सूचना का अधिकार (RTI) से कोई भी भारतीय नागरिक सरकार से सवाल पूछ सकता है। सिर्फ़ ₹10 में।</p>
+<a class="btn" href="#steps">RTI कैसे लगाएँ</a>
+<a class="btn alt" href="#forms">तैयार आवेदन कॉपी करें</a>
+</div></header>
+
+<section id="kya">
+<h2>RTI क्या है?</h2>
+<p>सरकार जनता के पैसे से चलती है, इसलिए जनता को हिसाब माँगने का हक़ है। RTI से आप मुखिया, पंचायत, BDO, DM, किसी भी सरकारी विभाग, राज्य या केंद्र सरकार से कागज़ और आँकड़े माँग सकते हैं।</p>
+<div class="facts">
+<div class="fact"><b>फीस ₹10</b>BPL परिवार को फीस नहीं लगती (प्रमाण-पत्र की कॉपी लगाएँ)।</div>
+<div class="fact"><b>जवाब 30 दिन में</b>जवाब न मिले तो अपील का रास्ता है।</div>
+<div class="fact"><b>सवाल या दस्तावेज़ माँगें</b>"क्यों हुआ?" की जगह पूछें: कितना पैसा आया, किसे मिला, कब मिला।</div>
+</div>
+<p>ध्यान रखें: RTI सरकारी दफ़्तरों से पूछी जाती है, निजी व्यक्ति या कंपनी से नहीं।</p>
+</section>
+
+<section id="steps">
+<h2>RTI कैसे लगाएँ</h2>
+<ol class="steps">
+<li><b>तय करें क्या पूछना है।</b> पैसा, सड़क, आवास, मनरेगा या कुछ और। नीचे "समस्या किससे पूछें" देखें।</li>
+<li><b>आवेदन तैयार करें।</b> नीचे अपना नाम-गाँव भरें, आवेदन कॉपी करें। कागज़ पर लिखकर या ऑनलाइन चिपकाकर भेजें।</li>
+<li><b>फीस ₹10 दें।</b> पोस्टल ऑर्डर, दफ़्तर में नकद (रसीद लें) या ऑनलाइन।</li>
+<li><b>जमा करें।</b> बिहार सरकार के दफ़्तर: jaankari.bihar.gov.in (फोन से भी सुविधा है: 155311, कॉल शुल्क लगता है)। केंद्र सरकार: rtionline.gov.in। या रजिस्टर्ड/स्पीड पोस्ट से। रसीद संभालकर रखें।</li>
+<li><b>30 दिन इंतज़ार करें।</b> जवाब न आए या अधूरा हो, तो 30 दिन के भीतर प्रथम अपील करें (मुफ़्त)। फिर 90 दिन में सूचना आयोग में द्वितीय अपील।</li>
+</ol>
+<p class="note">नियम, फीस और पोर्टल बदल सकते हैं। भेजने से पहले आधिकारिक वेबसाइट पर जाँच लें।</p>
+</section>
+
+<section id="forms">
+<h2>तैयार आवेदन</h2>
+<p>अपना नाम और गाँव भरें। आवेदन अपने-आप बदल जाएगा। फिर "कॉपी करें" दबाएँ।</p>
+<label for="nm">आपका नाम</label><input id="nm" autocomplete="name" placeholder="जैसे: रामू कुमार">
+<label for="vl">गाँव / पंचायत का नाम</label><input id="vl" placeholder="जैसे: बंसोही">
+<div id="tpls"></div>
+<p class="note">PIO (जन सूचना अधिकारी) का सही पता प्रखंड कार्यालय (BDO) से पूछें या jaankari.bihar.gov.in पर देखें।</p>
+</section>
+
+<section id="track">
+<h2>अपनी पंचायत का पैसा खुद देखें</h2>
+<p>ये सरकारी पोर्टल मुफ़्त हैं। जो जानकारी यहाँ अधूरी या गायब हो, उसे RTI से पूछें।</p>
+<div class="card"><p class="k">egramswaraj.gov.in</p><p>पंचायत चुनें और योजना, खर्च और कार्य-योजना देखें।</p></div>
+<div class="card"><p class="k">nrega.nic.in</p><p>मनरेगा के काम, मजदूरों की हाज़िरी (मस्टर रोल) और भुगतान।</p></div>
+<div class="card"><p class="k">rhreporting.nic.in</p><p>प्रधानमंत्री आवास (PMAY-G) के लाभार्थी और किस्तें।</p></div>
+<div class="card"><p class="k">auditonline.gov.in</p><p>पंचायत की ऑडिट रिपोर्ट।</p></div>
+<p><b>RTI में हमेशा माँगें:</b> राशि, तारीख, काम का नाम, ठेकेदार/लाभार्थी का नाम, स्वीकृति आदेश की संख्या।</p>
+</section>
+
+<section id="samasya">
+<h2>समस्या किससे पूछें</h2>
+<p>दफ़्तर के नाम हर जगह थोड़े अलग हो सकते हैं। नीचे आम तौर पर जिम्मेदार दफ़्तर हैं।</p>
+<div class="card"><h3>टूटी सड़क</h3><p>ग्राम पंचायत, प्रखंड (BDO) या ग्रामीण कार्य विभाग।</p><p><span class="k">RTI में माँगें:</span> स्वीकृति, लागत, लंबाई-चौड़ाई, ठेकेदार, माप-पुस्तिका।</p></div>
+<div class="card"><h3>नाली और सफ़ाई</h3><p>ग्राम पंचायत (मुखिया/सचिव), BDO।</p><p><span class="k">RTI में माँगें:</span> पंचायत को मिला पैसा और सफ़ाई/नाली पर खर्च।</p></div>
+<div class="card"><h3>आवास (PMAY-G)</h3><p>प्रखंड विकास पदाधिकारी (BDO)।</p><p><span class="k">RTI में माँगें:</span> लाभार्थी सूची, किस्तें, आवेदन रद्द होने का कारण।</p></div>
+<div class="card"><h3>राशन कार्ड</h3><p>प्रखंड/जिला आपूर्ति पदाधिकारी।</p><p><span class="k">RTI में माँगें:</span> आवेदन की तारीख, अभी की स्थिति, देरी का कारण।</p></div>
+<div class="card"><h3>पेंशन</h3><p>BDO या समाज कल्याण विभाग।</p><p><span class="k">RTI में माँगें:</span> लाभार्थी सूची, पेंशन रुकने का कारण।</p></div>
+<div class="card"><h3>मनरेगा</h3><p>पंचायत रोज़गार सेवक, कार्यक्रम पदाधिकारी, BDO।</p><p><span class="k">RTI में माँगें:</span> मस्टर रोल, मजदूरी भुगतान।</p></div>
+</section>
+
+<section id="safe">
+<h2>डरें नहीं, तरीके से पूछें</h2>
+<ol class="steps">
+<li>RTI पूछना कानूनी हक़ है। आवेदन और रसीद की कॉपी हमेशा रखें।</li>
+<li>सवाल सिस्टम से पूछें, किसी व्यक्ति पर आरोप न लगाएँ। सिर्फ़ कागज़ और आँकड़े माँगें।</li>
+<li>धमकी मिले तो पुलिस (112) को बताएँ और हमें भी लिखें।</li>
+</ol>
+<p class="note">यह वेबसाइट सामान्य जानकारी देती है, कानूनी सलाह नहीं। ज़रूरत हो तो वकील या सूचना आयोग से पूछें।</p>
+</section>
+
+<section id="sampark">
+<h2>मदद चाहिए?</h2>
+<p>Instagram पर कमेंट या DM में अपना सवाल लिखें। हम समझाने में मदद करेंगे। हम आपकी जगह आवेदन नहीं भर सकते और नतीजे की गारंटी नहीं दे सकते।</p>
+<a class="btn ig" href="#">Instagram पर सवाल पूछें</a>
+<a class="btn alt tg" href="#" style="color:var(--navy)">Telegram पर दोस्तों को भेजें</a>
+</section>
+
+<footer><div>
+<p><b>जागो बिहार</b> एक स्वतंत्र नागरिक पहल है। यह सरकारी वेबसाइट नहीं है और किसी सरकारी विभाग से जुड़ी नहीं है।</p>
+<p>इस साइट पर कोई विज्ञापन या ट्रैकर नहीं है। आपका नाम और गाँव सिर्फ़ आपके फोन में रहता है, कहीं भेजा या सहेजा नहीं जाता।</p>
+</div></footer>
+
+<nav aria-label="मुख्य मेनू">
+<a href="#top">होम</a><a href="#steps">RTI</a><a href="#forms">आवेदन</a><a href="#samasya">समस्या</a><a href="#sampark">संपर्क</a>
+</nav>
+
+<script>
+// यहाँ अपना Instagram यूज़रनेम (बिना @) लिखें
+var IG="vicky.plz";
+
+var T=[
+["पंचायत का पैसा (पिछला वर्ष)","ग्राम पंचायत {v}, प्रखंड ____, ज़िला ____",[
+"वित्तीय वर्ष 2025-26 में ग्राम पंचायत {v} को किस-किस योजना/मद (15वाँ वित्त आयोग, राज्य वित्त आयोग, अन्य) में कितना पैसा मिला, तारीख सहित।",
+"उस पैसे से हुए हर काम का नाम, राशि, ठेकेदार/एजेंसी का नाम और भुगतान की तारीख।",
+"कुल खर्च और बची हुई राशि।",
+"इस अवधि की ग्राम सभा की बैठकों की कार्यवाही की प्रमाणित प्रति।"]],
+["सड़क का काम","कार्यपालक/प्रखंड विकास पदाधिकारी कार्यालय, प्रखंड ____, ज़िला ____",[
+"गाँव {v} की सड़क (स्थान: ____) के निर्माण की स्वीकृति का आदेश और स्वीकृत लागत।",
+"सड़क की स्वीकृत लंबाई-चौड़ाई, ठेकेदार का नाम, काम शुरू और पूरा होने की तारीख।",
+"अब तक भुगतान की गई कुल राशि।",
+"माप-पुस्तिका (MB) और गुणवत्ता जाँच रिपोर्ट की प्रमाणित प्रति।"]],
+["मनरेगा के काम","कार्यक्रम पदाधिकारी, मनरेगा, प्रखंड ____, ज़िला ____",[
+"ग्राम पंचायत {v} में 2025-26 में मनरेगा के स्वीकृत सभी कामों की सूची, हर काम की राशि और वर्तमान स्थिति।",
+"हर काम पर मजदूरी और सामग्री पर अलग-अलग खर्च।",
+"काम (नाम: ____) के मस्टर रोल की प्रमाणित प्रति और मजदूरों को भुगतान की तारीख।"]],
+["आवास योजना (PMAY-G)","प्रखंड विकास पदाधिकारी, प्रखंड ____, ज़िला ____",[
+"ग्राम पंचायत {v} में प्रधानमंत्री आवास योजना (ग्रामीण) के सभी लाभार्थियों की सूची।",
+"हर लाभार्थी को जारी किस्तें और तारीख।",
+"जिन आवेदकों के आवेदन रद्द हुए उनकी सूची और रद्द करने का कारण।"]]
+];
+var pres=[];
+function build(n,v){
+  return T.map(function(t,i){
+    var q=t[2].map(function(x,j){return (j+1)+". "+x}).join("\n");
+    return "सेवा में,\nजन सूचना अधिकारी (PIO),\n"+t[1]+"\n\nविषय: सूचना का अधिकार अधिनियम, 2005 की धारा 6(1) के तहत आवेदन\n\nमहोदय/महोदया,\nमैं निम्न सूचना चाहता/चाहती हूँ:\n"+q+"\n\nआवेदन शुल्क ₹10 साथ में जमा है। मैं भारत का नागरिक हूँ।\n\nनाम: "+n+"\nपता: गाँव "+v+"\nमोबाइल: ____\nदिनांक: ____\nहस्ताक्षर: ____";
+  });
+}
+function val(){
+  var n=document.getElementById("nm").value.trim()||"____";
+  var v=document.getElementById("vl").value.trim()||"____";
+  build(n,v).forEach(function(s,i){pres[i].textContent=s.split("{v}").join(v)});
+}
+var box=document.getElementById("tpls");
+T.forEach(function(t,i){
+  var d=document.createElement("details"),s=document.createElement("summary"),w=document.createElement("div"),p=document.createElement("pre"),b=document.createElement("button");
+  s.textContent=t[0];b.className="btn";b.type="button";b.textContent="कॉपी करें";
+  b.onclick=function(){
+    var tx=p.textContent;
+    function ok(){b.textContent="कॉपी हो गया ✓";setTimeout(function(){b.textContent="कॉपी करें"},2000)}
+    if(navigator.clipboard){navigator.clipboard.writeText(tx).then(ok)}
+    else{var r=document.createRange();r.selectNode(p);var g=getSelection();g.removeAllRanges();g.addRange(r);document.execCommand("copy");ok()}
+  };
+  w.appendChild(p);w.appendChild(b);d.appendChild(s);d.appendChild(w);box.appendChild(d);pres.push(p);
+});
+document.getElementById("nm").oninput=val;document.getElementById("vl").oninput=val;val();
+
+document.querySelectorAll(".ig").forEach(function(a){a.href="https://instagram.com/"+IG;a.target="_blank";a.rel="noopener"});
+document.querySelectorAll(".tg").forEach(function(a){
+  a.href="https://t.me/+1BlFeQbjiJY5YmZl?text="+encodeURIComponent("अपने गाँव का हिसाब RTI से पूछना सीखें, सिर्फ़ ₹10 में: https://jagobihar.com");
+  a.target="_blank";a.rel="noopener";
+});
+</script>
+</body>
+</html>
